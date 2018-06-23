@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-# Tioscoin - An experimental cryptocurrency -
-=======
+
 # Tioscoin - An experimental cryptocurrency -- 
->>>>>>> 160a01d734126674e877e569653ba491eceab4f4
+
 
 Modified code from https://github.com/dashpay/dash & https://github.com/bitcoin/bitcoin
 
