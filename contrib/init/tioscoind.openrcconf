@@ -1,0 +1,26 @@
+# /etc/conf.d/tioscoind: config file for /etc/init.d/tioscoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/tioscoin/tioscoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/tioscoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/tioscoind.pid"
+
+# Where to write tioscoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/tioscoind"
+
+# User and group to own tioscoind process
+#BITCOIND_USER="tioscoin"
+#BITCOIND_GROUP="tioscoin"
+
+# Path to tioscoind executable
+#BITCOIND_BIN="/usr/bin/tioscoind"
+
+# Nice value to run tioscoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

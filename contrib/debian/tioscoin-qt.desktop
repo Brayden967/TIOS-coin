@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=TIOScoin
+Comment=TIOScoin P2P Cryptocurrency
+Comment[fr]=TIOScoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=TIOScoin, eşten eşe kriptografik sanal para birimi
+Exec=tioscoin-qt %u
+Terminal=false
+Type=Application
+Icon=tioscoin128
+MimeType=x-scheme-handler/tioscoin;
+Categories=Office;Finance;
