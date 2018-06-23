@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Tioscoin - An experimental cryptocurrency -
+=======
+# Tioscoin - An experimental cryptocurrency -- 
+>>>>>>> 160a01d734126674e877e569653ba491eceab4f4
 
 Modified code from https://github.com/dashpay/dash & https://github.com/bitcoin/bitcoin
 
@@ -21,4 +25,6 @@ Send and verify a transaction via node interface : WORKED
 Run a dedicated master-node with proper rewards : PARTIAL
 
 PoW / PoS reward structure changes: WORKED
+
+
 
