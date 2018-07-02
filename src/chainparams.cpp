@@ -45,7 +45,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-	(0, uint256("0x00000a47e5f67b18cc1bd58c9e50b5295370cc36df1245a2cd07bf6bb2486e72"));
+	(0, uint256("0x"));
 	
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -92,10 +92,10 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // Vsync: 1 minute
         nTargetSpacing = 1 * 60;  // Vsync: 1 minute
-        nLastPOWBlock = 259200;
+        nLastPOWBlock = 259200; //When PoW Stops
         nMaturity = 101;
         nModifierUpdateBlock = 1;
-        const char* pszTimestamp = "Vsync 27-08-2017";
+        const char* pszTimestamp = "First block stamp";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
